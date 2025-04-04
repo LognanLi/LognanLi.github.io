@@ -687,9 +687,12 @@
 .poet {
     margin-left: -35px;
     font-weight: 500;
+/*     This stuff below is from chatgpt */
     white-space: nowrap; /* Prevents text wrapping */
     width: auto; /* Let it take necessary width */
     padding-right: 20px; /* Add some padding to ensure text is visible */
+/*     above from gpt */
+    z-index: 999;
     
 }
 
