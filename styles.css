@@ -762,3 +762,15 @@
     border-radius: 10px;
     gap: 4rem;
 }
+
+.slightly_smaller {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.about_us {
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
