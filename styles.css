@@ -603,10 +603,11 @@
 }
 
 /* Logan Started Right here and ended on Line 761 */
-/*  */ 
+/* refactored line 766 start */  
 /*  */
 /*  */
 /*  */
+
 .textColor {
     color: black;
     font-size: 1.5rem;
@@ -652,6 +653,7 @@
     margin-right: -250px;
 }
 
+/* 
 .portfolioImage {
     width: 400px;
     height: 400px;
@@ -660,9 +662,7 @@
     justify-content: center;
     align-items: left;
     font-weight: bold;
-}
-
-
+}*/
 
 .loganh1 {
     margin: 0;
@@ -753,6 +753,7 @@
     margin-left: 37pc;
 }
 
+/*
 .buttonContainer {
     display: flex;
     align-items: center;
@@ -761,4 +762,95 @@
     padding: 150px;
     border-radius: 10px;
     gap: 4rem;
+} */
+
+.main {
+    display: block;
+    height: 100vh;
+    background-color: #F3E5E5;
+    width: 100%;
+    justify-content: left;
+}
+
+.main__container {
+    background-color: #F3E5E5;
+    width: 80%;
+    height: 80%;
+    margin: 5%;
+    display: flex;
+}
+
+.portfolioImage {
+    width: 40%;
+    height: auto;
+    border-radius: 50%;
+    display: flex;
+}
+
+.titleText {
+    color: black;
+    display: inline;
+}
+
+.titleText h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.titleText h2{
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.text__container {
+    background-color: #F3E5E5;
+    position: absolute;
+    height: auto;
+    width: 30%;
+    max-width: 1000px;
+    margin-left: 40rem;
+    margin-bottom: 15rem;
+}
+
+.text__container h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.text__container h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    margin-top: 5%;
+}
+
+.text__container p {
+    font-size: 1rem;
+    font-weight: normal;
+    color: black;
+    margin-top: 5px;
+}
+
+.button__container {
+    background-color: #06acee;
+    position: absolute;
+    width: 30%;
+    height: 20%;
+    max-width: 1000px;
+    margin-left: 40rem;
+    margin-top: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.portfolioButton {
+    display: inline-flex;;
+    background-color: #f98f05;
+    color: #000;
+    height: 15vh;
+    width: 15vh;
+    border-radius: 50%;
 }
