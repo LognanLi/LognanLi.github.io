@@ -836,22 +836,23 @@
 .button__container {
     background-color: #F3E5E5;
     position: absolute;
-    width: 30%;
-    height: 20%;
+    width: 40rem;
+    height: 20rem;
     max-width: 1000px;
     margin-left: 40rem;
     margin-top: 20rem;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     gap: 5rem;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .portfolioButton {
-    display: inline-flex;;
+    display: inline-flex;
     color: #131313;
-    height: 150px;
-    width: 150px;
+    height: 50%;
+    width: 100%;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
@@ -875,34 +876,37 @@
     .portfolioImage{
         width: 35vh;
         height: 35vh;
-        margin-left: 25%;
+        margin-left: 0;
         border-radius: 50%;
         display: flex;
     }
 
     .text__container {
         position: absolute;
+        background-color: #F3E5E5;
         margin-top: 40vh;
-        margin-left: 25%;
-        width: 35vh;
+        margin-left: 10vw;
+        width: 30vh;
         height: 35vh;
         max-width: 80%;
     }
 
     .button__container {
         position: absolute;
-        width: 80%;
-        height: 15%;
-        margin-left: 10%;
-        margin-top: 70vh;
-        display: flex;
+        width: 325px;
+        height: 150px;
+        margin-left: 10vw;
+        margin-top: 60vh;
+        display: grid;
         justify-content: center;
         align-items: center;
-        gap: 5rem;
+        gap: 2rem;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .portfolioButton {
-        height: 120px;
-        width: 120px;;
+        height: 100px;
+        width: 100px;
     }
+    
 }
