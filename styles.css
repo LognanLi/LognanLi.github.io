@@ -502,7 +502,7 @@
     align-items: flex-start;
     margin: 16px;
     text-align: left;
-    width: 100%;
+    width: 160px;
     box-sizing: border-box;
 }
 
@@ -603,10 +603,11 @@
 }
 
 /* Logan Started Right here and ended on Line 761 */
-/*  */ 
+/* refactored line 766 start */  
 /*  */
 /*  */
 /*  */
+
 .textColor {
     color: black;
     font-size: 1.5rem;
@@ -652,6 +653,7 @@
     margin-right: -250px;
 }
 
+/* 
 .portfolioImage {
     width: 400px;
     height: 400px;
@@ -660,9 +662,7 @@
     justify-content: center;
     align-items: left;
     font-weight: bold;
-}
-
-
+}*/
 
 .loganh1 {
     margin: 0;
@@ -753,6 +753,7 @@
     margin-left: 37pc;
 }
 
+/*
 .buttonContainer {
     display: flex;
     align-items: center;
@@ -761,16 +762,141 @@
     padding: 150px;
     border-radius: 10px;
     gap: 4rem;
+} */
+
+.mainPortfolio {
+    display: block;
+    height: 100vh;
+    background-color: #F3E5E5;
+    width: 100%;
+    justify-content: left;
 }
 
-.slightly_smaller {
-    font-size: 18px;
+.mainPortfolio__container {
+    background-color: #F3E5E5;
+    width: 80%;
+    height: 80%;
+    margin: 5%;
+    display: flex;
+}
+
+.portfolioImage {
+    width: 35rem;
+    height: 35rem;
+    border-radius: 50%;
+    display: flex;
+}
+
+.titleText {
+    color: black;
+    display: inline;
+}
+
+.titleText h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.titleText h2{
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.text__container {
+    background-color: #F3E5E5;
+    position: absolute;
+    height: auto;
+    width: 30%;
+    max-width: 1000px;
+    margin-left: 40rem;
+    margin-bottom: 15rem;
+}
+
+.text__container h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.text__container h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    margin-top: 5%;
+}
+
+.text__container p {
+    font-size: 1rem;
+    font-weight: normal;
+    color: black;
     margin-top: 5px;
 }
 
-.about_us {
-    font-weight: 700;
-    font-size: 15px;
-    margin-top: 10px;
+.button__container {
+    background-color: #F3E5E5;
+    position: absolute;
+    width: 30%;
+    height: 20%;
+    max-width: 1000px;
+    margin-left: 40rem;
+    margin-top: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
 
+.portfolioButton {
+    display: inline-flex;;
+    color: #131313;
+    height: 15vh;
+    width: 15vh;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-decoration: none;
+    outline: 2px solid #131313;
+}
+
+.button__container a:nth-child(1) {
+    background-color: rgb(228, 103, 72);
+}
+.button__container a:nth-child(2) {
+    background-color: rgb(204, 219, 116);
+}
+
+.button__container a:nth-child(3) {
+    background-color: rgb(94, 147, 197);
+}
+
+@media screen and (max-width: 768px) {
+    .portfolioImage{
+        width: 35vh;
+        height: 35vh;
+        margin-left: 25%;
+        border-radius: 50%;
+        display: flex;
+    }
+
+    .text__container {
+        position: absolute;
+        margin-top: 40vh;
+        margin-left: 25%;
+        width: 35vh;
+        height: 35vh;
+        max-width: 80%;
+    }
+
+    .button__container {
+        position: absolute;
+        width: 80%;
+        height: 15%;
+        margin-left: 10%;
+        margin-top: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+    }
 }
