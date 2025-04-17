@@ -850,8 +850,8 @@
 .portfolioButton {
     display: inline-flex;;
     color: #131313;
-    height: 15vh;
-    width: 15vh;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
@@ -899,5 +899,10 @@
         justify-content: center;
         align-items: center;
         gap: 5rem;
+    }
+
+    .portfolioButton {
+        height: 120px;
+        width: 120px;;
     }
 }
